@@ -8,7 +8,7 @@ My aim for the app was to try out different ways of colouring pixels individuall
 
 The approach included making a base pixel 100x100 grid (with optional scaling) and setting each pixel to a specific colour.
 
-It sets the colour of each pixel by looping over each index of the total count of pixels*, if the current index is within a colour range configured in one of the layers it sets the colour set in the layer. It then moves over to the next pixel (index).
+It sets the colour of each pixel by looping over each index of the total count of pixels\*, if the current index is within a colour range configured in one of the layers it sets the colour set in the layer. It then moves over to the next pixel (index).
 
 Once it sets the colour of the last pixel in a row, which for a 100x100 square would be index 100, it then moves down to the next row. It does this by increasing a y axis count after every hundredth index, so 101 is position 1 on row 2, 201 is position 1 on row 3 and so on.
 
@@ -16,7 +16,7 @@ The scaling works by multiplying the base grid size and 'pixel' focus of what to
 
 A GUID is used to randomly select each layer and specific options in the layer, eg colour.
 
-**for example the base count is 250,000 with the default scale of 5, unless increased/decreased with scale option.*
+\*_for example the base count is 250,000 with the default scale of 5, unless increased/decreased with scale option._
 
 ## Fancy a slice? 🤤
 
@@ -32,7 +32,7 @@ The slices aren't truly 'unique' as there aren't enough layers so you will event
 
 ## Future plans
 
-To make the slices genuinely 'unique' I could explore a procedural generation approach which, instead of using template positions of pepperoni pieces, could randomly generate locations and use collision detection checks to maintain a natural aethetic.
+To make the slices genuinely 'unique' I could explore a procedural generation approach which, instead of using template positions of pepperoni pieces, could randomly generate locations and use collision detection checks to maintain a natural aesthetic.
 
 ## Other
 
