@@ -20,6 +20,10 @@ A GUID is used to randomly select each layer and specific options in the layer, 
 
 The slices aren't truly 'unique' as there aren't enough layers so you will eventually get duplicated make ups of the layers. I could fix this in the future by adding more layers.
 
+## Future plans
+
+To make the slices genuinely 'unique' I could explore a procedural generation approach which, instead of using template positions of pepperoni pieces, could randomly generate locations and use collision detection checks to maintain a natural aethetic.
+
 ## Other
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
